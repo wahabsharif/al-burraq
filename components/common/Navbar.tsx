@@ -24,7 +24,7 @@ const Navbar = () => {
       />
 
       <div className="grid items-center grid-cols-12 py-8 bg-darkBg">
-        <div className="col-span-12 text-center md:col-span-4 lg:col-span-4 sm:col-span-6">
+        <div className="col-span-12 text-center md:col-span-3 lg:col-span-4 sm:col-span-6">
           <Link href="/">
             <Image
               src={Logo}
@@ -36,10 +36,10 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="hidden text-center md:col-span-4 lg:col-span-4 md:block lg:block">
+        <div className="hidden text-center text-lightGold md:col-span-6 lg:col-span-4 md:block lg:block">
           <NavMenu />
         </div>
-        <div className="flex justify-center col-span-12 gap-4 mt-8 text-center md:mt-0 sm:mt-0 lg:mt-0 md:col-span-4 lg:col-span-4 sm:col-span-6">
+        <div className="flex justify-center col-span-12 gap-4 mt-8 text-center md:mt-0 sm:mt-0 lg:mt-0 md:col-span-3 lg:col-span-4 sm:col-span-6">
           <NavIcons
             canvasHidden={canvasHidden}
             setIsSearchVisible={setIsSearchVisible}

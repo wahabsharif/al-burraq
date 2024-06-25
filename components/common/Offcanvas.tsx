@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import Logo from "../../assets/img/logo.png";
+import Logo from "../../assets/img/logo/al-burraq-logo-landscape-dark.svg";
 import { NavbarMenu } from "../../menus";
 
 interface PropTypes {
@@ -16,7 +16,7 @@ const Offcanvas = ({ canvasHidden, setCanvasHidden }: PropTypes) => {
   return (
     <>
       <div
-        className={`offcanvas offcanvas-end fixed bottom-0 flex flex-col max-w-full bg-white  bg-clip-padding shadow-sm outline-none transition duration-300 ease-in-out text-gray-700 top-0 right-0 border-none w-96 ${
+        className={`offcanvas offcanvas-end fixed bottom-0 flex flex-col max-w-full bg-darkBg  bg-clip-padding shadow-sm outline-none transition duration-300 ease-in-out text-gray-700 top-0 right-0 border-none w-96 ${
           canvasHidden ? `translate-x-full` : `translate-x-0`
         }`}
         tabIndex={-1}
@@ -24,27 +24,27 @@ const Offcanvas = ({ canvasHidden, setCanvasHidden }: PropTypes) => {
         id="offcanvasRight"
         aria-labelledby="offcanvasRightLabel"
       >
-        <div className="offcanvas-header flex items-center justify-between p-4">
+        <div className="flex items-center justify-between p-4 offcanvas-header">
           <h5
-            className="offcanvas-title mb-0 leading-normal font-semibold"
+            className="mb-0 font-semibold leading-normal offcanvas-title"
             id="offcanvasRightLabel"
           >
-            <Image alt="Loading..." src={Logo} />
+            <Image alt="Loading..." src={Logo} width={150} />
           </h5>
 
           <i
-            className="fa-solid fa-xmark text-2xl"
+            className="text-2xl fa-solid fa-xmark"
             onClick={() => setCanvasHidden(!canvasHidden)}
           ></i>
         </div>
-        <div className="offcanvas-body flex-grow p-4 overflow-y-auto">
-          <div className="nav-items flex flex-col gap-7">
+        <div className="flex-grow p-4 overflow-y-auto offcanvas-body">
+          <div className="flex flex-col nav-items gap-7">
             {NavbarMenu.map((menu) => {
               return (
                 <Link
-                  className={`text-2xl text-black border-b-4 py-3.5 ${
+                  className={`text-2xl text-lightGold border-b-4 py-3.5 ${
                     router.pathname === menu.path
-                      ? "border-red-500"
+                      ? "border-darkGold2"
                       : "border-gray"
                   }`}
                   key={menu.name}
