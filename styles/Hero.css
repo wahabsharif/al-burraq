@@ -12,13 +12,16 @@
   font-size: 35px;
   opacity: 1;
 }
-.slick-title {
+.slick-title h1 {
   font-size: 3.5rem;
   line-height: 4rem;
+  color: rgb(198, 148, 57);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
+
 @media (max-width: 768px) {
-  .slick-title {
-    font-size: 2rem;
+  .slick-title h1 {
+    font-size: 1.5rem;
     line-height: 2rem;
   }
 }
