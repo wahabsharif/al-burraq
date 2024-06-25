@@ -34,7 +34,8 @@ const Hero = () => {
               </div>
               <div className="order-2 my-8 font-semibold slick-title lg:order-none">
                 <h1 className="text-3xl md:text-4xl">
-                  Find Your Dream House By Us
+                  <span className="text-lightGold">Find Your </span>Dream House
+                  <span className="text-lightGold"> By Us</span>
                 </h1>
               </div>
               <div className="order-4 px-4 my-4 border-l-2 border-gray-300 slick-description text-slate-500 lg:order-none">
