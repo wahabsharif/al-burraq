@@ -8,12 +8,14 @@ import type { AppProps } from "next/app";
 import Topbar from "../components/common/Topbar";
 import Navbar from "../components/common/Navbar";
 import PreFooter from "../components/common/PreFooter";
-import Footer from "../components/common/Footer";
+import BotFooter from "../components/common/BotFooter";
 import ProgressBar from "../components/common/ProgressBar";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import ReactToastifyContainer from "../components/common/ReactToastifyContainer";
 import "react-toastify/dist/ReactToastify.css";
+import BotFooterTwo from "../components/common/BotFooterTwo";
+import Footer from "../components/common/Footer";
 
 export default function App({ Component, pageProps }: AppProps) {
   const [progress, setProgress] = useState<number>(0);
@@ -51,7 +53,9 @@ export default function App({ Component, pageProps }: AppProps) {
       {!router.pathname.includes("/dashboard") && (
         <>
           {/* <PreFooter /> */}
-          {/* <Footer /> */}
+          <Footer />
+          {/* <BotFooter /> */}
+          {/* <BotFooterTwo /> */}
         </>
       )}
     </>

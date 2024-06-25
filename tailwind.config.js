@@ -25,6 +25,7 @@ module.exports = withMT({
         darkGold: "rgb(198, 148,	57)",
         darkGold2: "rgb(139, 117,40)",
         lightGold: "rgb(255, 245, 210)",
+        lightGold2: "rgb(255,230,158)",
       },
       minWidth: {
         2: "2rem",
