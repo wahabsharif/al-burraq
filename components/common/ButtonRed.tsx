@@ -13,11 +13,11 @@ const ButtonRed = ({
     <button
       className={`${
         width === "full" ? "w-full" : "w-40"
-      } bg-darkGold hover:bg-slate-800 transition-all tracking-wider rounded p-3 text-white`}
+      }  bg-darkGold hover:bg-slate-700 transition-all tracking-wider rounded p-3 text-lightGold font-extrabold`}
       style={{ padding: ".6rem" }}
       onClick={handleClick}
     >
-      {text}
+      <i className="fa-solid fa-search "></i> {text}
     </button>
   );
 };

@@ -22,7 +22,7 @@ const MaterialSelectWithValidation = ({
       <Select
         variant={variant}
         color={color}
-        className="bg-gray-50 text-gray-900"
+        className="bg-darkBg"
         value={value}
         size={size}
         label={label}
@@ -31,13 +31,13 @@ const MaterialSelectWithValidation = ({
       >
         {options.map((option: Select) => {
           return (
-            <Option key={option.value} value={option.value}>
+            <Option className="" key={option.value} value={option.value}>
               {option.text}
             </Option>
           );
         })}
       </Select>
-      {error && <p className="text-darkGold text-sm my-2">{errorText}</p>}
+      {error && <p className="my-2 text-sm text-red-700">{errorText}</p>}
     </div>
   );
 };
