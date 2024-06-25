@@ -38,7 +38,7 @@ const AddProperty = () => {
 
   return (
     <>
-      <h1 className="text-3xl mx-5 poppins font-bold my-5">Add Property</h1>
+      <h1 className="text-3xl mx-5 cinzel font-bold my-5">Add Property</h1>
       <PropertyForm
         initialValues={initialValues}
         yupSchema={AddPropertySchema}

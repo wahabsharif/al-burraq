@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
 
 body {
-  font-family: "Poppins", sans-serif;
   background-color: rgb(25, 32, 40);
   /* overflow-x: hidden; */
 }
@@ -24,8 +23,8 @@ input[type="number"] {
 }
 
 /* Hide Input Numbers Arrow */
-.poppins {
-  font-family: "Poppins", sans-serif !important;
+.cinzel {
+  font-family: "cinzel", sans-serif !important;
 }
 
 * {
@@ -81,4 +80,19 @@ input[type="number"] {
 
 .width-90 {
   width: 90%;
+}
+
+/* Heading font style */
+.cinzel {
+  font-family: "Cinzel Decorative", serif;
+}
+
+/* Example usage */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply cinzel;
 }

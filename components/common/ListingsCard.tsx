@@ -45,7 +45,7 @@ export default function ListingsCard({ property }: any) {
           <CardBody className="text-center">
             <Typography
               variant="h6"
-              className="my-2 text-start poppins text-darkGold font-bold"
+              className="my-2 text-start cinzel text-darkGold font-bold"
             >
               {property.before_price_label && (
                 <span>{property.before_price_label}/</span>
@@ -57,11 +57,11 @@ export default function ListingsCard({ property }: any) {
             </Typography>
             <Typography
               variant="h4"
-              className="my-4 text-start poppins min-h-4 max-h-16 text-black font-semibold"
+              className="my-4 text-start cinzel min-h-4 max-h-16 text-black font-semibold"
             >
               {property.title}
             </Typography>
-            <Typography className="text-start poppins">
+            <Typography className="text-start cinzel">
               {property.description.substring(0, 30)}{" "}
               {property.description.length > 30 && "..."}
             </Typography>

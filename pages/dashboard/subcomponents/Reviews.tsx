@@ -44,7 +44,7 @@ const Reviews = () => {
       ) : (
         <>
           <div className="flex items-center">
-            <h1 className="text-3xl mx-5 poppins font-bold my-5">Reviews</h1>
+            <h1 className="text-3xl mx-5 cinzel font-bold my-5">Reviews</h1>
             <span className="bg-darkGold transition-all duration-500 hover:bg-slate-800 cursor-pointer rounded-full py-2 text-sm text-white px-4">
               Average Rating: {averageRating}
             </span>

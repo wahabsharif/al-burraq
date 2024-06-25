@@ -34,7 +34,7 @@ const ListingsModal = ({ size, handleOpen, property }: Proptypes) => {
       size={size}
       handler={handleOpen}
     >
-      <DialogHeader className="flex poppins justify-between">
+      <DialogHeader className="flex cinzel justify-between">
         <h1 className="font-semibold text-2xl">Product Information</h1>
         <i
           onClick={(e) => handleOpen(null, e)}
@@ -60,7 +60,7 @@ const ListingsModal = ({ size, handleOpen, property }: Proptypes) => {
             />
           </div>
           <div className="product-name text-black">
-            <h1 className="text-2xl poppins font-semibold">{property.title}</h1>
+            <h1 className="text-2xl cinzel font-semibold">{property.title}</h1>
           </div>
           <div className="product-price flex items-center text-darkGold">
             {property.before_price_label && (
@@ -71,13 +71,13 @@ const ListingsModal = ({ size, handleOpen, property }: Proptypes) => {
               <span className="mt-2"> /{property.after_price_label}</span>
             )}
           </div>
-          <div className="product-categories border-y-2 py-4 poppins border-gray-300">
+          <div className="product-categories border-y-2 py-4 cinzel border-gray-300">
             <span className="text-md">
               <strong className="text-black">Seller:</strong> &nbsp;
               <span>{property.seller_id.name}</span>
             </span>
           </div>
-          <div className="product-link poppins flex gap-6">
+          <div className="product-link cinzel flex gap-6">
             <div className="font-semibold">
               <ButtonRedWithIcon
                 text="See Full Info"

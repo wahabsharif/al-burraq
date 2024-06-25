@@ -19,7 +19,7 @@ const StarRatingSM = ({
         starDimension="17px"
         starSpacing="1px"
       />
-      <span className="ml-2 poppins text-darkGold">({reviews} Reviews)</span>
+      <span className="ml-2 cinzel text-darkGold">({reviews} Reviews)</span>
     </div>
   );
 };

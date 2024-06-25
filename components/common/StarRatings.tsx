@@ -21,7 +21,7 @@ const StarRating = ({
         starDimension="25px"
         starSpacing="1px"
       />
-      <span className="ml-2 poppins mt-1 text-darkGold">
+      <span className="ml-2 cinzel mt-1 text-darkGold">
         ({reviews} Reviews)
       </span>
     </div>

@@ -54,7 +54,7 @@ const Floor = ({ floors }: PropTypes) => {
     <Tabs value="1-floor">
       <TabsHeader>
         {data.map(({ label, value }: { value: string; label: string }) => (
-          <Tab className="poppins" key={value} value={value}>
+          <Tab className="cinzel" key={value} value={value}>
             {label}
           </Tab>
         ))}

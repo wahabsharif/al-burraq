@@ -20,7 +20,7 @@ const TabItem = ({ text, heading, media }: PropTypes) => {
             src={media}
           />
         </div>
-        <div className="floor-info text-center px-14 pb-14 lg:text-start col-span-12  lg:col-span-6 text-black poppins">
+        <div className="floor-info text-center px-14 pb-14 lg:text-start col-span-12  lg:col-span-6 text-black cinzel">
           <div className="floor-no my-7">
             <TextSemiLarge text={heading} />
           </div>

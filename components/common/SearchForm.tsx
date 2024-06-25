@@ -27,7 +27,7 @@ const SearchForm = ({ setIsSearchVisible, isSearchVisible }: PropTypes) => {
       <Input
         variant="standard"
         placeholder="Search"
-        className="poppins"
+        className="cinzel"
         value={query}
         color="red"
         onChange={(e) => setQuery(e.target.value)}

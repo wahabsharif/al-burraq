@@ -70,9 +70,7 @@ const MyProperties = () => {
         </div>
       ) : (
         <>
-          <h1 className="text-3xl mx-5 poppins font-bold my-5">
-            My Properties
-          </h1>
+          <h1 className="text-3xl mx-5 cinzel font-bold my-5">My Properties</h1>
           <ReactImageLightbox
             isOpen={isOpen}
             setIsOpen={setIsOpen}

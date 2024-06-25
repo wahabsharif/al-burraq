@@ -545,7 +545,7 @@ const PropertyForm = ({
                 <div className="col-span-12 mt-7 text-center">
                   <Button
                     size="lg"
-                    className="poppins w-full"
+                    className="cinzel w-full"
                     onClick={onAddFloor}
                   >
                     <i className="fa fa-plus" aria-hidden="true"></i>
@@ -557,7 +557,7 @@ const PropertyForm = ({
             <div className="col-span-12">
               <Button
                 size="md"
-                className="poppins"
+                className="cinzel"
                 onClick={() => uploadMediaRef.current?.click()}
               >
                 Upload Pictures

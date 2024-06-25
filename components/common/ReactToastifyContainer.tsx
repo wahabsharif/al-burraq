@@ -9,7 +9,7 @@ const ReactToastifyContainer = () => {
       pauseOnHover={true}
       draggable={true}
       theme="light"
-      toastClassName="toast-custom poppins text-sm"
+      toastClassName="toast-custom cinzel text-sm"
     />
   );
 };

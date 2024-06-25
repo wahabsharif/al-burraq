@@ -83,7 +83,7 @@ const Settings = () => {
         </div>
       ) : (
         <>
-          <h1 className="text-3xl mx-5 poppins font-bold my-5">Settings</h1>
+          <h1 className="text-3xl mx-5 cinzel font-bold my-5">Settings</h1>
 
           <div className="m-4 shadow-xl sm:rounded-lg p-10">
             <form

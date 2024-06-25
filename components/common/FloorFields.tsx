@@ -71,13 +71,13 @@ const FloorFields = ({
             File
           </label>
           {values.property_floors[index].floor_media ? (
-            <Button size="md" disabled className="poppins w-full" color="green">
+            <Button size="md" disabled className="cinzel w-full" color="green">
               Sketch Uploaded
             </Button>
           ) : (
             <Button
               size="md"
-              className="poppins w-full"
+              className="cinzel w-full"
               onClick={() => floorMediaRef.current?.click()}
             >
               Upload Sketch
